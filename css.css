@@ -1,0 +1,97 @@
+/* 
+#game{
+    width: 1080px;
+    height: 720px;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: hidden;   
+    animation: game 1s infinite;
+}
+
+#pipes {
+    width: 75px;
+    height: 400px;
+    left: 720px;
+    margin-top: 500px;
+    margin-bottom: 100px;
+    position: relative;
+    animation: block 2s infinite linear;
+    transform: translateX(-50%);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(
+      to right,
+      #579c66,
+      #579c66 5px,
+      #6dad7b 15px,
+      #e9ffe8 33px,
+      #9dd591 50px,
+      #6bb765 100px,
+      #142e16 100%
+    );
+    }
+/* 
+@keyframes block{
+    0%{left: 720px;}
+    100%{left: -75px;} 
+} */
+/* #gap {
+    width:75px;
+    height: 150px;
+    bgcolor;
+
+}
+
+#mario{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 350px;
+    border-radius: 50%;
+} */ */
+
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+#game{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    border: 5px solid white;
+    margin: auto;
+    overflow: hidden;
+}
+#pipes{
+    width: 50px;
+    height: 500px;
+    position: relative;
+    left: 400px;
+    animation: block 2s infinite linear;
+    background-color:#9dd591;
+    
+}
+@keyframes block{
+    0%{left:400px}
+    100%{left:-50px}
+}
+#gap{
+    width: 50px;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    left: 400px;
+    top: -500px;
+    animation: block 2s infinite linear;
+}
+#player{
+    width: 20px;
+    height: 20px;
+    background-color: cyan;
+    position: absolute;
+    top: 100px;
+    border-radius: 50%;
+}
